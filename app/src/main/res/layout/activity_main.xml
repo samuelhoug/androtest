@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The first page when a new user get the app in his device -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/food"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:gravity="center|bottom"
+        android:layout_below="@id/logo"
+        >
+        <Button
+            android:id="@+id/buttonGetStart"
+            android:onClick="onClick"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="25dp"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:text="Démarrer"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:focusable="true"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_marginBottom="15dp"
+        android:id="@+id/logo"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo_complet"
+        />
+
+</RelativeLayout>

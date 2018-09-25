@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginBottom="100dp"
+    android:layout_marginTop="100dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Command"
+    android:backgroundTint="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <TextView
+            android:id="@+id/txtclose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_5dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:layout_marginEnd="@dimen/margin_5dp"
+            android:text="X"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/colorPrimaryDark"/>
+        <Button
+            android:id="@+id/Okclose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_start"
+            android:text="OK"
+            android:textSize="@dimen/size"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/confirm"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/colorPrimary"/>
+        <ImageView
+            android:id="@+id/icon_done"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/icon_done"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/size"
+            android:text="@string/confirmation"
+            android:textColor="@color/colorAccent"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

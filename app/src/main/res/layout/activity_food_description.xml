@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hsamuel.midifood.FoodDescription"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:weightSum="10">
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:id="@+id/gallery"
+        android:layout_marginTop="@dimen/margin_5dp"
+        android:layout_marginLeft="@dimen/gallery_margin"
+        android:layout_marginRight="@dimen/gallery_margin"
+        android:elevation="@dimen/margin_5dp"/>
+    <TextView
+        android:padding="@dimen/margin_5dp"
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+
+    <Button
+        android:padding="@dimen/margin_5dp"
+        android:layout_width="126dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_marginTop="@dimen/gallery_margin"
+        android:text="@string/bouton_command"
+        android:textSize="@dimen/size"
+        android:background="@color/colorPrimaryDark" />
+</android.support.v7.widget.LinearLayoutCompat>

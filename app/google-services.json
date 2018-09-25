@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "275852977083",
+    "firebase_url": "https://midifood-602ae.firebaseio.com",
+    "project_id": "midifood-602ae",
+    "storage_bucket": "midifood-602ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275852977083:android:61f16cf6f1772c54",
+        "android_client_info": {
+          "package_name": "com.example.hsamuel.midifood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275852977083-0rcih7sggri5702dals4diqnjs304665.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hsamuel.midifood",
+            "certificate_hash": "3987ccf2dcfe80484445553f96749230e17d0d78"
+          }
+        },
+        {
+          "client_id": "275852977083-nlqact2ft8ajsr7md15hmf993eq3pnt9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoB467AuRXuC-xEUL-rfUDe98zAh68oow"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275852977083-nlqact2ft8ajsr7md15hmf993eq3pnt9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

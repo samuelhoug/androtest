@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.hsamuel.midifood.Connexion"
+android:background="@drawable/background_gradient">
+
+<LinearLayout
+    android:id="@+id/Input"
+    android:layout_marginLeft="@dimen/gallery_margin"
+    android:layout_marginRight="@dimen/gallery_margin"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:textColorHint="@color/white"
+        android:hint="@string/prompt_email"
+        android:inputType="textEmailAddress"
+        android:drawableEnd="@drawable/ic_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:textColorHint="@color/white"
+        android:drawableEnd="@drawable/ic_lock"
+        android:hint="@string/prompt_password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/button_connexion"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Se connecter"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/textViewRegister"
+        android:textSize="@dimen/size"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/margin_5dp"
+        android:text="Pas encore inscrit? S'inscrire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:focusable="true"
+        />
+
+</LinearLayout>
+
+<ImageView
+    android:id="@+id/photo"
+    android:src="@drawable/ic_user"
+    android:layout_centerHorizontal="true"
+    android:layout_width="75dp"
+    android:layout_height="75dp"
+    android:layout_marginTop="30dp"/>
+
+<TextView
+    android:layout_below="@+id/photo"
+    android:textSize="15sp"
+    android:textColor="#fff"
+    android:text="Ajouter une photo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true" />
+<ProgressBar
+    android:id="@+id/login_progress"
+    style="?android:attr/progressBarStyleHorizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:visibility="gone"/>
+
+</RelativeLayout>

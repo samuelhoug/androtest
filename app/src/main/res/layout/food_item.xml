@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/margin_5dp"
+    android:background="@color/colorPrimary">
+            <ImageView
+                android:id="@+id/img_agency"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_heigth"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:id="@+id/Name_agency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_agency"
+                android:paddingLeft="@dimen/nav_header_vertical_spacing"
+                android:paddingRight="@dimen/nav_header_vertical_spacing"
+                android:paddingTop="@dimen/nav_header_vertical_spacing"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/size"/>
+            <TextView
+                android:id="@+id/offers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Name_agency"
+                android:paddingBottom="@dimen/margin_5dp"
+                android:paddingLeft="@dimen/margin_5dp"
+                android:paddingRight="@dimen/margin_5dp"
+                android:textSize="@dimen/size" />
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Midifood</string>
+    <string name="midifood_logo">Midifood Logo</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="phone">Téléphone</string>
+    <string name="champ_full_name">Nom complet</string>
+    <string name="bouton_command">Commander</string>
+    <string name="send_button">Confirmer</string>
+    <string name="confirmation">Confirmé</string>
+    <string name="error_invalid_email">Adresse email invalide</string>
+    <string name="error_invalid_password">Mot de passe trop court</string>
+    <string name="error_incorrect_password">Mot de passe incorret</string>
+    <string name="error_email_field_required">Entrez un email</string>
+    <string name="error_password_field_required">Entrez un mot de passe</string>
+    <string name="title_activity_menu_side">MenuSide</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
